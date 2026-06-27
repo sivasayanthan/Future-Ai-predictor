@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Future Predictor</title>
 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🤖 AI Future Predictor</h1>
+
+    <p class="subtitle">
+        Enter a goal, prediction or statement and let the AI analyze it.
+    </p>
+
+    <textarea
+        id="userInput"
+        placeholder="Example: I will become a successful AI Engineer..."
+    ></textarea>
+
+    <button onclick="analyzePrediction()">
+        Analyze
+    </button>
+
+    <div class="result">
+
+        <h2>AI Analysis</h2>
+
+        <div class="progress-bar">
+            <div id="progress"></div>
+        </div>
+
+        <h3 id="percentage">0%</h3>
+
+        <p id="analysis">
+            Your AI analysis will appear here...
+        </p>
+
+        <div id="suggestions"></div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
